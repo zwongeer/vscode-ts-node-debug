@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run mocha --recursive ./src/**/__tests__/*",
+    "mocha": "mocha -r ts-node/register"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
